@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lucky dog</title>
+
+    <link rel="stylesheet" href="js-dom-manip.css">
+    <script src="js-dom-manip.js" type="text/javascript" language="JavaScript"></script>
+</head>
+<body>
+    <div style="width: 100%;text-align: center;">
+        <h1>Привіт! Мене звуть Везунчик!</h1>
+        <div style="width: 100%; text-align: left;">
+            <img onclick="play()" src="dog-with-bone.jpg" id="dogPhoto" style="position: relative; left: 43%;">
+        </div>
+        <div id="voices"></div>
+    </div>
+    <div>
+        <button onclick="voice()">Голос!</button>
+        <button onclick="play()">Грати!</button>
+    </div>
+</body>
+</html>
