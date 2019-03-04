@@ -28,6 +28,7 @@ nav img { display: none; }
 @media (max-width: 650px) {
 
   .data {
+    color: red;
   }
 
   nav ul {
