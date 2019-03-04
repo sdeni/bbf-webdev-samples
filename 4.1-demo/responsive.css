@@ -25,46 +25,44 @@ nav li {
 
 nav img { display: none; }
 
-@media (max-width: 650px) {
-
-  .data {
-  }
-
-  nav ul {
-  }
-
-  nav li {
-  }
-
-  .container { display: block; }
-  .photo { width: 100%;}
-
+@media (max-width: 740px) {
   nav {
     position: absolute;
     left: 2px;
     top: 2px;
   }
 
-  nav img { display: block; }
+  nav ul {
+    display: none;
+    padding: 20px;
+  }
 
-  nav ul { display: none; }
+  nav img { display: block; }
 
   nav:hover ul {
     display: block;
-    position: absolute;
-    background-color: white;
-    width:200px;
-    margin-top: 0;
-    text-align: left;
+    background-color:white;
+    margin-top: -10px;
   }
 
-  nav:hover ul li {
-    list-style: initial;
+  nav li {
     display: block;
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 12px;
   }
 
-  nav ul:hover li {
-    list-style: initial;
-    display: block;
+  .header { height: 50px; }
+
+  h1 { font-size: 24px; }
+
+  .data {
+    font-size: 20px;
+    line-height: 1.4;
   }
+
+  .data ul { padding-left: 20px; }
+
+  .container { display: block; }
+  .photo { width: 100%;}
 }
