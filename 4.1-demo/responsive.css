@@ -23,7 +23,54 @@ nav li {
 .data {font-size: 24px;}
 .data ul { margin-top: 0;}
 
-@media (max-width: 740px) {
-  .container { display: block;}
-  .photo { max-width: 100%;}
+nav img { display: none; }
+
+@media (max-width: 650px) {
+
+  .data {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  nav ul {
+    padding: 20px;
+  }
+
+  nav li {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .container { display: block; }
+  .photo { width: 100%;}
+
+  nav {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+  }
+
+  nav img { display: block; }
+
+  nav ul { display: none; }
+
+  nav:hover ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    width:200px;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  nav:hover ul li {
+    list-style: initial;
+    display: block;
+  }
+
+  nav ul:hover li {
+    list-style: initial;
+    display: block;
+  }
 }
