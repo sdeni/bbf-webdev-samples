@@ -28,18 +28,12 @@ nav img { display: none; }
 @media (max-width: 650px) {
 
   .data {
-    font-size: 20px;
-    line-height: 1.4;
   }
 
   nav ul {
-    padding: 20px;
   }
 
   nav li {
-    font-size: 21px;
-    line-height: 1.5;
-    margin-bottom: 12px;
   }
 
   .container { display: block; }
